@@ -1,0 +1,53 @@
+.signup {
+    margin: auto;
+    border: 1px solid rgb(59, 58, 58);
+    border-radius: 10px;
+    max-width: 450px;
+    margin-top: 150px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* .signup:hover {
+    border: 2px solid rgb(59, 58, 58);
+    box-shadow: 7px 7px 6px rgb(192, 189, 189);
+  } */
+  
+  .form {
+    border: 3px solid #f00;
+    max-width: 500px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  .error_msg {
+    color: #f00;
+    opacity: 0;
+    animation: spanAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  
+  .success {
+    color: rgb(4, 158, 4)
+  }
+  
+  .email {
+    border: 2px solid rgba(100, 186, 223, 0.9);
+    border-radius: 6px 0px 0px 6px;
+    padding: 13px;
+  }
+  
+  .input {
+    width: 280px;
+    height: 44px;
+    font-size: 15px;
+    padding-left: 10px;
+    border: 2px solid rgba(100, 186, 223, 0.9);
+    outline: none;
+    border-radius: 0px 6px 6px 0px;
+  }
+
+  form {
+    margin-top: 70px;
+  }
